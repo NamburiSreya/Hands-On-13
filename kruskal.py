@@ -72,3 +72,14 @@ mst = kruskal(num_vertices, edges)
 print("Edges of Minimum Cost Spanning Tree are:")
 for edge in mst:
     print(f"{vertices[edge.start]} -> {vertices[edge.end]} = {edge.weight}")
+
+#output
+#Edges of Minimum Cost Spanning Tree are:
+#g -> h = 1
+#c -> i = 2
+#f -> g = 2
+#a -> b = 4
+#c -> f = 4
+#c -> d = 7
+#a -> h = 8
+#d -> e = 9
